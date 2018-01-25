@@ -24,9 +24,9 @@ function draw() {
 
 			// clockwise
 			if (val > 1) {
-				backColor = color(143, 179, 57, 30);
-			} else { //counterclockwise
 				backColor = color(169, 29, 25, 30);
+			} else { //counterclockwise
+				backColor = color(143, 179, 57, 30);
 			}
 
 			fill(backColor);
