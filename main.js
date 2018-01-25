@@ -8,6 +8,9 @@ function setup() {
 function draw() {
 	clear();
 	background(51);
+	textSize(32);
+	fill(255, 255, 255);
+	text("Vertice Count: " + points.length, 10, 30);
 	if (points.length > 2) {
 		for (i = 0; i < points.length - 2; i++) {
 			a = points[i];
